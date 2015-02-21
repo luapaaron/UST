@@ -1,0 +1,23 @@
+/* http://www.menucool.com */
+
+#sliderFrame {position:relative;width:700px;margin: 0 auto;} /*remove the "margin:0 auto;" if you want to align the whole slider to the left side*/
+
+
+#slider {
+	width:400px;
+	height:450px;/* Make it the same size as your images */
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;/*make the image slider center-aligned */
+
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#slider img {
+	position:absolute;
+	border:none;
+	display:none;
+}
+
+
